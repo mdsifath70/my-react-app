@@ -1,0 +1,12 @@
+.videos {
+    display: grid;
+    margin: 3rem auto;
+    justify-items: center;
+    gap: 20px;
+}
+
+@media screen and (min-width: 480px) {
+    .videos {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
