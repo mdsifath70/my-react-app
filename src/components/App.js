@@ -17,7 +17,7 @@ function App() {
                 <Layout>
                     <Switch>
                         <Route exact={true} path="/" component={Home} />
-                        <Route exact={true} path="/my-react-app" component={Home} />
+                        <PublicRoute exact={true} path="/my-react-app" component={Home} />
                         <PublicRoute exact={true} path="/signup" component={Signup} />
                         <PublicRoute exact={true} path="/login" component={Login} />
                         <PrivateRoute exact={true} path="/quiz" component={Quiz} />
